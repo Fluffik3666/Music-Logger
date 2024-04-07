@@ -17,6 +17,8 @@
 		6F4F3A932BC1DE130045F78B /* SetupViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4F3A922BC1DE130045F78B /* SetupViewManager.swift */; };
 		6F4F3A952BC1DE350045F78B /* SetupView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4F3A942BC1DE350045F78B /* SetupView2.swift */; };
 		6F4F3A982BC1DFCE0045F78B /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4F3A972BC1DFCE0045F78B /* NotificationManager.swift */; };
+		6F4F3A9A2BC300500045F78B /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4F3A992BC300500045F78B /* AudioManager.swift */; };
+		6F4F3A9C2BC306050045F78B /* AppIconChangerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4F3A9B2BC306050045F78B /* AppIconChangerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		6F4F3A922BC1DE130045F78B /* SetupViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupViewManager.swift; sourceTree = "<group>"; };
 		6F4F3A942BC1DE350045F78B /* SetupView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupView2.swift; sourceTree = "<group>"; };
 		6F4F3A972BC1DFCE0045F78B /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		6F4F3A992BC300500045F78B /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		6F4F3A9B2BC306050045F78B /* AppIconChangerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconChangerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +71,10 @@
 				6F4F3A7A2BC1D0D00045F78B /* ContentView.swift */,
 				6F4F3A902BC1D87E0045F78B /* SetupView.swift */,
 				6F4F3A972BC1DFCE0045F78B /* NotificationManager.swift */,
+				6F4F3A992BC300500045F78B /* AudioManager.swift */,
 				6F4F3A922BC1DE130045F78B /* SetupViewManager.swift */,
 				6F4F3A942BC1DE350045F78B /* SetupView2.swift */,
+				6F4F3A9B2BC306050045F78B /* AppIconChangerView.swift */,
 				6F4F3A882BC1D3C80045F78B /* StreakGridView.swift */,
 				6F4F3A8A2BC1D5FA0045F78B /* Documentation.docc */,
 				6F4F3A7E2BC1D0D10045F78B /* Assets.xcassets */,
@@ -161,7 +167,9 @@
 				6F4F3A952BC1DE350045F78B /* SetupView2.swift in Sources */,
 				6F4F3A792BC1D0D00045F78B /* Music_LoggerApp.swift in Sources */,
 				6F4F3A912BC1D87E0045F78B /* SetupView.swift in Sources */,
+				6F4F3A9A2BC300500045F78B /* AudioManager.swift in Sources */,
 				6F4F3A982BC1DFCE0045F78B /* NotificationManager.swift in Sources */,
+				6F4F3A9C2BC306050045F78B /* AppIconChangerView.swift in Sources */,
 				6F4F3A8B2BC1D5FB0045F78B /* Documentation.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,12 +301,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Music Logger/Preview Content\"";
 				DEVELOPMENT_TEAM = 8Y3J97SYZG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "The app uses your microphone to record your music sessions";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -322,12 +332,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Music Logger/Preview Content\"";
 				DEVELOPMENT_TEAM = 8Y3J97SYZG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "The app uses your microphone to record your music sessions";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

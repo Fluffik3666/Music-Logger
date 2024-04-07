@@ -12,6 +12,7 @@ struct Music_LoggerApp: App {
 	
 	init() {
 		requestNotificationPermission()
+		requestMicrophonePermission()
 	}
 	
 	
